@@ -1,0 +1,215 @@
+<html>
+<head>
+<title>TestNG:  EdgeTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>EdgeTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>27/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 27 11:23:23 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>52 seconds (52595 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testScenarios.EndToEnd.displayBookshelvesDetails()'><b>displayBookshelvesDetails</b><br>Test class: testScenarios.EndToEnd</td>
+<td></td>
+<td>3</td>
+<td>testScenarios.EndToEnd@38afe297</td></tr>
+<tr>
+<td title='testScenarios.EndToEnd.enterRecipientDetailsDDT()'><b>enterRecipientDetailsDDT</b><br>Test class: testScenarios.EndToEnd<br>Parameters: Smith, smith@gmail.com, 9876543215</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.EndToEnd@38afe297</td></tr>
+<tr>
+<td title='testScenarios.EndToEnd.checkOutOfStock()'><b>checkOutOfStock</b><br>Test class: testScenarios.EndToEnd</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.EndToEnd@38afe297</td></tr>
+<tr>
+<td title='testScenarios.EndToEnd.enterSenderDetailsDDT()'><b>enterSenderDetailsDDT</b><br>Test class: testScenarios.EndToEnd<br>Parameters: Andrew, andrew@gmail.com, , Bandra, Mumbai</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.EndToEnd@38afe297</td></tr>
+<tr>
+<td title='testScenarios.EndToEnd.isPriceFilterPresent()'><b>isPriceFilterPresent</b><br>Test class: testScenarios.EndToEnd</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.EndToEnd@38afe297</td></tr>
+<tr>
+<td title='testScenarios.EndToEnd.validateGiftCardButton()'><b>validateGiftCardButton</b><br>Test class: testScenarios.EndToEnd</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.EndToEnd@38afe297</td></tr>
+<tr>
+<td title='testScenarios.EndToEnd.enterSenderDetailsDDT()'><b>enterSenderDetailsDDT</b><br>Test class: testScenarios.EndToEnd<br>Parameters: Samantha, samantha@gmail.com, 9876543213, </td>
+<td></td>
+<td>0</td>
+<td>testScenarios.EndToEnd@38afe297</td></tr>
+<tr>
+<td title='testScenarios.EndToEnd.isOutOfStockCheckboxPresent()'><b>isOutOfStockCheckboxPresent</b><br>Test class: testScenarios.EndToEnd</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.EndToEnd@38afe297</td></tr>
+<tr>
+<td title='testScenarios.EndToEnd.navigateToGiftCardsPage()'><b>navigateToGiftCardsPage</b><br>Test class: testScenarios.EndToEnd</td>
+<td></td>
+<td>3</td>
+<td>testScenarios.EndToEnd@38afe297</td></tr>
+<tr>
+<td title='testScenarios.EndToEnd.enterSenderDetailsDDT()'><b>enterSenderDetailsDDT</b><br>Test class: testScenarios.EndToEnd<br>Parameters: Claire, claire@gmail.com, 9876543, Bandra, Mumbai</td>
+<td></td>
+<td>1</td>
+<td>testScenarios.EndToEnd@38afe297</td></tr>
+<tr>
+<td title='testScenarios.EndToEnd.isHomeDecorMenuPresent()'><b>isHomeDecorMenuPresent</b><br>Test class: testScenarios.EndToEnd</td>
+<td></td>
+<td>5</td>
+<td>testScenarios.EndToEnd@38afe297</td></tr>
+<tr>
+<td title='testScenarios.EndToEnd.giftCardCustomization()'><b>giftCardCustomization</b><br>Test class: testScenarios.EndToEnd</td>
+<td></td>
+<td>1</td>
+<td>testScenarios.EndToEnd@38afe297</td></tr>
+<tr>
+<td title='testScenarios.EndToEnd.isBrandFilterPresent()'><b>isBrandFilterPresent</b><br>Test class: testScenarios.EndToEnd</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.EndToEnd@38afe297</td></tr>
+<tr>
+<td title='testScenarios.EndToEnd.isBookShelvesButtonPresent()'><b>isBookShelvesButtonPresent</b><br>Test class: testScenarios.EndToEnd</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.EndToEnd@38afe297</td></tr>
+<tr>
+<td title='testScenarios.EndToEnd.enterSenderDetailsDDT()'><b>enterSenderDetailsDDT</b><br>Test class: testScenarios.EndToEnd<br>Parameters: , john@gmail.com, 9876543210, Bandra, Mumbai</td>
+<td></td>
+<td>1</td>
+<td>testScenarios.EndToEnd@38afe297</td></tr>
+<tr>
+<td title='testScenarios.EndToEnd.isPriceFilterHoverable()'><b>isPriceFilterHoverable</b><br>Test class: testScenarios.EndToEnd</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.EndToEnd@38afe297</td></tr>
+<tr>
+<td title='testScenarios.EndToEnd.isStorageTypeFilterHoverable()'><b>isStorageTypeFilterHoverable</b><br>Test class: testScenarios.EndToEnd</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.EndToEnd@38afe297</td></tr>
+<tr>
+<td title='testScenarios.EndToEnd.setPriceSlider()'><b>setPriceSlider</b><br>Test class: testScenarios.EndToEnd</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.EndToEnd@38afe297</td></tr>
+<tr>
+<td title='testScenarios.EndToEnd.verifyBookshelvesPage()'><b>verifyBookshelvesPage</b><br>Test class: testScenarios.EndToEnd</td>
+<td></td>
+<td>2</td>
+<td>testScenarios.EndToEnd@38afe297</td></tr>
+<tr>
+<td title='testScenarios.EndToEnd.enterSenderDetailsDDT()'><b>enterSenderDetailsDDT</b><br>Test class: testScenarios.EndToEnd<br>Parameters: Antony, antony, 9876543212, Bandra, Mumbai</td>
+<td></td>
+<td>1</td>
+<td>testScenarios.EndToEnd@38afe297</td></tr>
+<tr>
+<td title='testScenarios.EndToEnd.enterSenderDetailsDDT()'><b>enterSenderDetailsDDT</b><br>Test class: testScenarios.EndToEnd<br>Parameters: Joe, , 9876543211, Bandra, Mumbai</td>
+<td></td>
+<td>1</td>
+<td>testScenarios.EndToEnd@38afe297</td></tr>
+<tr>
+<td title='testScenarios.EndToEnd.verifyBirthdayCardIsDisplayed()'><b>verifyBirthdayCardIsDisplayed</b><br>Test class: testScenarios.EndToEnd</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.EndToEnd@38afe297</td></tr>
+<tr>
+<td title='testScenarios.EndToEnd.handlePopup()'><b>handlePopup</b><br>Test class: testScenarios.EndToEnd</td>
+<td></td>
+<td>5</td>
+<td>testScenarios.EndToEnd@38afe297</td></tr>
+<tr>
+<td title='testScenarios.EndToEnd.isStorageTypeFilterPresent()'><b>isStorageTypeFilterPresent</b><br>Test class: testScenarios.EndToEnd</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.EndToEnd@38afe297</td></tr>
+<tr>
+<td title='testScenarios.EndToEnd.enterSenderDetailsDDT()'><b>enterSenderDetailsDDT</b><br>Test class: testScenarios.EndToEnd<br>Parameters: , , , </td>
+<td></td>
+<td>0</td>
+<td>testScenarios.EndToEnd@38afe297</td></tr>
+<tr>
+<td title='testScenarios.EndToEnd.setStorageType()'><b>setStorageType</b><br>Test class: testScenarios.EndToEnd</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.EndToEnd@38afe297</td></tr>
+<tr>
+<td title='testScenarios.EndToEnd.getHomeDecorSubMenuItems()'><b>getHomeDecorSubMenuItems</b><br>Test class: testScenarios.EndToEnd</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.EndToEnd@38afe297</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,250 @@
+<html>
+<head>
+<title>TestNG:  ChromeTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>ChromeTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>34/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 27 11:20:11 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>190 seconds (190972 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testScenarios.RecipientAndSenderDetails.validateErrorMessageWithoutEmailInSenderDetails()'><b>validateErrorMessageWithoutEmailInSenderDetails</b><br>Test class: testScenarios.RecipientAndSenderDetails</td>
+<td></td>
+<td>1</td>
+<td>testScenarios.RecipientAndSenderDetails@3eb25e1a</td></tr>
+<tr>
+<td title='testScenarios.SettingTheRequiredFilters.checkOutOfStock()'><b>checkOutOfStock</b><br>Test class: testScenarios.SettingTheRequiredFilters</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.SettingTheRequiredFilters@229f66ed</td></tr>
+<tr>
+<td title='testScenarios.GetListOfSubMenuItems.getHomeDecorSubMenuItems()'><b>getHomeDecorSubMenuItems</b><br>Test class: testScenarios.GetListOfSubMenuItems</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.GetListOfSubMenuItems@662ac478</td></tr>
+<tr>
+<td title='testScenarios.RecipientAndSenderDetailsDDT.enterRecipientDetailsDDT()'><b>enterRecipientDetailsDDT</b><br>Test class: testScenarios.RecipientAndSenderDetailsDDT<br>Parameters: Smith, smith@gmail.com, 9876543215</td>
+<td></td>
+<td>14</td>
+<td>testScenarios.RecipientAndSenderDetailsDDT@477b4cdf</td></tr>
+<tr>
+<td title='testScenarios.RecipientAndSenderDetails.validateErrorMessageWithInvalidEmailInSenderDetails()'><b>validateErrorMessageWithInvalidEmailInSenderDetails</b><br>Test class: testScenarios.RecipientAndSenderDetails</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.RecipientAndSenderDetails@3eb25e1a</td></tr>
+<tr>
+<td title='testScenarios.GetListOfSubMenuItems.isHomeDecorMenuPresent()'><b>isHomeDecorMenuPresent</b><br>Test class: testScenarios.GetListOfSubMenuItems</td>
+<td></td>
+<td>13</td>
+<td>testScenarios.GetListOfSubMenuItems@662ac478</td></tr>
+<tr>
+<td title='testScenarios.RecipientAndSenderDetailsDDT.enterSenderDetailsDDT()'><b>enterSenderDetailsDDT</b><br>Test class: testScenarios.RecipientAndSenderDetailsDDT<br>Parameters: , john@gmail.com, 9876543210, Bandra, Mumbai</td>
+<td></td>
+<td>1</td>
+<td>testScenarios.RecipientAndSenderDetailsDDT@477b4cdf</td></tr>
+<tr>
+<td title='testScenarios.VisibilityOfBookshelvesFilters.isPriceFilterPresent()'><b>isPriceFilterPresent</b><br>Test class: testScenarios.VisibilityOfBookshelvesFilters</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.VisibilityOfBookshelvesFilters@7dcf94f8</td></tr>
+<tr>
+<td title='testScenarios.RecipientAndSenderDetails.enterRecipientDetails()'><b>enterRecipientDetails</b><br>Test class: testScenarios.RecipientAndSenderDetails</td>
+<td></td>
+<td>13</td>
+<td>testScenarios.RecipientAndSenderDetails@3eb25e1a</td></tr>
+<tr>
+<td title='testScenarios.VisibilityOfBookshelvesFilters.isBrandFilterPresent()'><b>isBrandFilterPresent</b><br>Test class: testScenarios.VisibilityOfBookshelvesFilters</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.VisibilityOfBookshelvesFilters@7dcf94f8</td></tr>
+<tr>
+<td title='testScenarios.NavigateToBookshelvesPage.verifyBookshelvesPage()'><b>verifyBookshelvesPage</b><br>Test class: testScenarios.NavigateToBookshelvesPage</td>
+<td></td>
+<td>3</td>
+<td>testScenarios.NavigateToBookshelvesPage@1f2586d6</td></tr>
+<tr>
+<td title='testScenarios.RecipientAndSenderDetails.validateErrorMessageWithoutNameInSenderDetails()'><b>validateErrorMessageWithoutNameInSenderDetails</b><br>Test class: testScenarios.RecipientAndSenderDetails</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.RecipientAndSenderDetails@3eb25e1a</td></tr>
+<tr>
+<td title='testScenarios.VisibilityOfBookshelvesFilters.isStorageTypeFilterPresent()'><b>isStorageTypeFilterPresent</b><br>Test class: testScenarios.VisibilityOfBookshelvesFilters</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.VisibilityOfBookshelvesFilters@7dcf94f8</td></tr>
+<tr>
+<td title='testScenarios.SettingTheRequiredFilters.setPriceSlider()'><b>setPriceSlider</b><br>Test class: testScenarios.SettingTheRequiredFilters</td>
+<td></td>
+<td>13</td>
+<td>testScenarios.SettingTheRequiredFilters@229f66ed</td></tr>
+<tr>
+<td title='testScenarios.RecipientAndSenderDetailsDDT.enterSenderDetailsDDT()'><b>enterSenderDetailsDDT</b><br>Test class: testScenarios.RecipientAndSenderDetailsDDT<br>Parameters: Antony, antony, 9876543212, Bandra, Mumbai</td>
+<td></td>
+<td>1</td>
+<td>testScenarios.RecipientAndSenderDetailsDDT@477b4cdf</td></tr>
+<tr>
+<td title='testScenarios.RecipientAndSenderDetails.validateErrorMessageWithoutAddressInSenderDetails()'><b>validateErrorMessageWithoutAddressInSenderDetails</b><br>Test class: testScenarios.RecipientAndSenderDetails</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.RecipientAndSenderDetails@3eb25e1a</td></tr>
+<tr>
+<td title='testScenarios.RecipientAndSenderDetails.validateErrorMessageWithInvalidMobileNumberInSenderDetails()'><b>validateErrorMessageWithInvalidMobileNumberInSenderDetails</b><br>Test class: testScenarios.RecipientAndSenderDetails</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.RecipientAndSenderDetails@3eb25e1a</td></tr>
+<tr>
+<td title='testScenarios.VisibilityOfBookshelvesFilters.isPriceFilterHoverable()'><b>isPriceFilterHoverable</b><br>Test class: testScenarios.VisibilityOfBookshelvesFilters</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.VisibilityOfBookshelvesFilters@7dcf94f8</td></tr>
+<tr>
+<td title='testScenarios.VisibilityOfBookshelvesFilters.isStorageTypeFilterHoverable()'><b>isStorageTypeFilterHoverable</b><br>Test class: testScenarios.VisibilityOfBookshelvesFilters</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.VisibilityOfBookshelvesFilters@7dcf94f8</td></tr>
+<tr>
+<td title='testScenarios.RecipientAndSenderDetailsDDT.enterSenderDetailsDDT()'><b>enterSenderDetailsDDT</b><br>Test class: testScenarios.RecipientAndSenderDetailsDDT<br>Parameters: Andrew, andrew@gmail.com, , Bandra, Mumbai</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.RecipientAndSenderDetailsDDT@477b4cdf</td></tr>
+<tr>
+<td title='testScenarios.VisibilityOfBookshelvesFilters.handlePopup()'><b>handlePopup</b><br>Test class: testScenarios.VisibilityOfBookshelvesFilters</td>
+<td></td>
+<td>7</td>
+<td>testScenarios.VisibilityOfBookshelvesFilters@7dcf94f8</td></tr>
+<tr>
+<td title='testScenarios.RecipientAndSenderDetailsDDT.enterSenderDetailsDDT()'><b>enterSenderDetailsDDT</b><br>Test class: testScenarios.RecipientAndSenderDetailsDDT<br>Parameters: Joe, , 9876543211, Bandra, Mumbai</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.RecipientAndSenderDetailsDDT@477b4cdf</td></tr>
+<tr>
+<td title='testScenarios.NavigateToBookshelvesPage.isBookShelvesButtonPresent()'><b>isBookShelvesButtonPresent</b><br>Test class: testScenarios.NavigateToBookshelvesPage</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.NavigateToBookshelvesPage@1f2586d6</td></tr>
+<tr>
+<td title='testScenarios.GiftCardCustomization.validateGiftCardButton()'><b>validateGiftCardButton</b><br>Test class: testScenarios.GiftCardCustomization</td>
+<td></td>
+<td>7</td>
+<td>testScenarios.GiftCardCustomization@6743e411</td></tr>
+<tr>
+<td title='testScenarios.RecipientAndSenderDetailsDDT.enterSenderDetailsDDT()'><b>enterSenderDetailsDDT</b><br>Test class: testScenarios.RecipientAndSenderDetailsDDT<br>Parameters: Claire, claire@gmail.com, 9876543, Bandra, Mumbai</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.RecipientAndSenderDetailsDDT@477b4cdf</td></tr>
+<tr>
+<td title='testScenarios.VisibilityOfBookshelvesFilters.isOutOfStockCheckboxPresent()'><b>isOutOfStockCheckboxPresent</b><br>Test class: testScenarios.VisibilityOfBookshelvesFilters</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.VisibilityOfBookshelvesFilters@7dcf94f8</td></tr>
+<tr>
+<td title='testScenarios.GiftCardCustomization.giftCardCustomization()'><b>giftCardCustomization</b><br>Test class: testScenarios.GiftCardCustomization</td>
+<td></td>
+<td>1</td>
+<td>testScenarios.GiftCardCustomization@6743e411</td></tr>
+<tr>
+<td title='testScenarios.RecipientAndSenderDetailsDDT.enterSenderDetailsDDT()'><b>enterSenderDetailsDDT</b><br>Test class: testScenarios.RecipientAndSenderDetailsDDT<br>Parameters: , , , </td>
+<td></td>
+<td>0</td>
+<td>testScenarios.RecipientAndSenderDetailsDDT@477b4cdf</td></tr>
+<tr>
+<td title='testScenarios.GiftCardCustomization.navigateToGiftCardsPage()'><b>navigateToGiftCardsPage</b><br>Test class: testScenarios.GiftCardCustomization</td>
+<td></td>
+<td>4</td>
+<td>testScenarios.GiftCardCustomization@6743e411</td></tr>
+<tr>
+<td title='testScenarios.GiftCardCustomization.verifyBirthdayCardIsDisplayed()'><b>verifyBirthdayCardIsDisplayed</b><br>Test class: testScenarios.GiftCardCustomization</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.GiftCardCustomization@6743e411</td></tr>
+<tr>
+<td title='testScenarios.DisplayBookShelvesDetails.displayBookshelvesDetails()'><b>displayBookshelvesDetails</b><br>Test class: testScenarios.DisplayBookShelvesDetails</td>
+<td></td>
+<td>19</td>
+<td>testScenarios.DisplayBookShelvesDetails@31190526</td></tr>
+<tr>
+<td title='testScenarios.RecipientAndSenderDetails.validateErrorMessageWithoutMobileNumberInSenderDetails()'><b>validateErrorMessageWithoutMobileNumberInSenderDetails</b><br>Test class: testScenarios.RecipientAndSenderDetails</td>
+<td></td>
+<td>1</td>
+<td>testScenarios.RecipientAndSenderDetails@3eb25e1a</td></tr>
+<tr>
+<td title='testScenarios.RecipientAndSenderDetailsDDT.enterSenderDetailsDDT()'><b>enterSenderDetailsDDT</b><br>Test class: testScenarios.RecipientAndSenderDetailsDDT<br>Parameters: Samantha, samantha@gmail.com, 9876543213, </td>
+<td></td>
+<td>0</td>
+<td>testScenarios.RecipientAndSenderDetailsDDT@477b4cdf</td></tr>
+<tr>
+<td title='testScenarios.SettingTheRequiredFilters.setStorageType()'><b>setStorageType</b><br>Test class: testScenarios.SettingTheRequiredFilters</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.SettingTheRequiredFilters@229f66ed</td></tr>
+</table><p>
+</body>
+</html>

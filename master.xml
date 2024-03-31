@@ -1,0 +1,25 @@
+<?xml version ="1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name = "MasterSuite">
+	<listeners>
+		<listener class-name = "utilities.ExtentReportManager"/>
+	</listeners>
+
+	<test name = "Test">
+		<parameter name = "OS" value = "Windows"/>
+		<parameter name = "Browser" value = "Chrome"/>
+		
+		<classes>
+			<!--<class name = "testScenarios.NavigateToBookshelvesPage"/>
+			<class name = "testScenarios.VisibilityOfBookshelvesFilters"/>
+			<class name = "testScenarios.SettingTheRequiredFilters"/>
+			<class name = "testScenarios.DisplayBookShelvesDetails"/>
+			<class name = "testScenarios.GetListOfSubMenuItems"/>
+			<class name = "testScenarios.GiftCardCustomization"/>
+			<class name = "testScenarios.RecipientAndSenderDetails"/>
+			<class name = "testScenarios.RecipientAndSenderDetailsDDT"/>-->
+			<class name = "testScenarios.EndToEnd"/>
+		</classes>
+	</test>
+</suite>

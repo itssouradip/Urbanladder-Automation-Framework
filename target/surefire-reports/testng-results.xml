@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="27" passed="27" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-25T19:23:00 IST" name="MasterSuite" finished-at="2024-03-25T19:25:00 IST" duration-ms="119832">
+    <groups>
+      <group name="Master">
+        <method signature="TS_01_NavigateToBookshelvesPage.tc_001_isBookShelvesButtonPresent()[pri:0, instance:testCases.TS_01_NavigateToBookshelvesPage@2cd76f31]" name="tc_001_isBookShelvesButtonPresent" class="testCases.TS_01_NavigateToBookshelvesPage"/>
+        <method signature="TS_02_VisibilityOfBookshelvesFilters.tc_003_handlePopup()[pri:0, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@2aceadd4]" name="tc_003_handlePopup" class="testCases.TS_02_VisibilityOfBookshelvesFilters"/>
+        <method signature="TS_03_SettingTheRequiredFilters.tc_010_setPriceSlider()[pri:0, instance:testCases.TS_03_SettingTheRequiredFilters@24aed80c]" name="tc_010_setPriceSlider" class="testCases.TS_03_SettingTheRequiredFilters"/>
+        <method signature="TS_04_DisplayBookShelvesDetails.tc_013_displayBookshelvesDetails()[pri:0, instance:testCases.TS_04_DisplayBookShelvesDetails@3a52dba3]" name="tc_013_displayBookshelvesDetails" class="testCases.TS_04_DisplayBookShelvesDetails"/>
+        <method signature="TS_05_GetListOfSubMenuItems.tc_014_isHomeDecorMenuPresent()[pri:0, instance:testCases.TS_05_GetListOfSubMenuItems@2a5c8d3f]" name="tc_014_isHomeDecorMenuPresent" class="testCases.TS_05_GetListOfSubMenuItems"/>
+        <method signature="TS_06_GiftCardCustomization.tc_016_validateGiftCardButton()[pri:0, instance:testCases.TS_06_GiftCardCustomization@279fedbd]" name="tc_016_validateGiftCardButton" class="testCases.TS_06_GiftCardCustomization"/>
+        <method signature="TS_07_ResipientAndSenderDetailsDDT.tc_020_enterRecipientDetailsDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_07_ResipientAndSenderDetailsDDT@b3ca52e]" name="tc_020_enterRecipientDetailsDDT" class="testCases.TS_07_ResipientAndSenderDetailsDDT"/>
+        <method signature="TS_01_NavigateToBookshelvesPage.tc_002_verifyBookshelvesPage()[pri:1, instance:testCases.TS_01_NavigateToBookshelvesPage@2cd76f31]" name="tc_002_verifyBookshelvesPage" class="testCases.TS_01_NavigateToBookshelvesPage"/>
+        <method signature="TS_02_VisibilityOfBookshelvesFilters.tc_004_isPriceFilterPresent()[pri:1, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@2aceadd4]" name="tc_004_isPriceFilterPresent" class="testCases.TS_02_VisibilityOfBookshelvesFilters"/>
+        <method signature="TS_03_SettingTheRequiredFilters.tc_011_setStorageType()[pri:1, instance:testCases.TS_03_SettingTheRequiredFilters@24aed80c]" name="tc_011_setStorageType" class="testCases.TS_03_SettingTheRequiredFilters"/>
+        <method signature="TS_05_GetListOfSubMenuItems.tc_015_getHomeDecorSubMenuItems()[pri:1, instance:testCases.TS_05_GetListOfSubMenuItems@2a5c8d3f]" name="tc_015_getHomeDecorSubMenuItems" class="testCases.TS_05_GetListOfSubMenuItems"/>
+        <method signature="TS_06_GiftCardCustomization.tc_017_navigateToGiftCardsPage()[pri:1, instance:testCases.TS_06_GiftCardCustomization@279fedbd]" name="tc_017_navigateToGiftCardsPage" class="testCases.TS_06_GiftCardCustomization"/>
+        <method signature="TS_07_ResipientAndSenderDetailsDDT.tc_021_enterSenderDetailsDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCases.TS_07_ResipientAndSenderDetailsDDT@b3ca52e]" name="tc_021_enterSenderDetailsDDT" class="testCases.TS_07_ResipientAndSenderDetailsDDT"/>
+        <method signature="TS_02_VisibilityOfBookshelvesFilters.tc_005_isStorageTypeFilterPresent()[pri:2, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@2aceadd4]" name="tc_005_isStorageTypeFilterPresent" class="testCases.TS_02_VisibilityOfBookshelvesFilters"/>
+        <method signature="TS_03_SettingTheRequiredFilters.tc_012_checkOutOfStock()[pri:2, instance:testCases.TS_03_SettingTheRequiredFilters@24aed80c]" name="tc_012_checkOutOfStock" class="testCases.TS_03_SettingTheRequiredFilters"/>
+        <method signature="TS_06_GiftCardCustomization.tc_018_verifyBirthdayCardIsDisplayed()[pri:2, instance:testCases.TS_06_GiftCardCustomization@279fedbd]" name="tc_018_verifyBirthdayCardIsDisplayed" class="testCases.TS_06_GiftCardCustomization"/>
+        <method signature="TS_02_VisibilityOfBookshelvesFilters.tc_006_isBrandFilterPresent()[pri:3, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@2aceadd4]" name="tc_006_isBrandFilterPresent" class="testCases.TS_02_VisibilityOfBookshelvesFilters"/>
+        <method signature="TS_06_GiftCardCustomization.tc_019_giftCardCustomization()[pri:3, instance:testCases.TS_06_GiftCardCustomization@279fedbd]" name="tc_019_giftCardCustomization" class="testCases.TS_06_GiftCardCustomization"/>
+        <method signature="TS_02_VisibilityOfBookshelvesFilters.tc_007_isOutOfStockCheckboxPresent()[pri:4, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@2aceadd4]" name="tc_007_isOutOfStockCheckboxPresent" class="testCases.TS_02_VisibilityOfBookshelvesFilters"/>
+        <method signature="TS_02_VisibilityOfBookshelvesFilters.tc_008_isPriceFilterHoverable()[pri:5, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@2aceadd4]" name="tc_008_isPriceFilterHoverable" class="testCases.TS_02_VisibilityOfBookshelvesFilters"/>
+        <method signature="TS_02_VisibilityOfBookshelvesFilters.tc_009_isStorageTypeFilterHoverable()[pri:6, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@2aceadd4]" name="tc_009_isStorageTypeFilterHoverable" class="testCases.TS_02_VisibilityOfBookshelvesFilters"/>
+      </group> <!-- Master -->
+      <group name="Regression Test">
+        <method signature="TS_01_NavigateToBookshelvesPage.tc_001_isBookShelvesButtonPresent()[pri:0, instance:testCases.TS_01_NavigateToBookshelvesPage@2cd76f31]" name="tc_001_isBookShelvesButtonPresent" class="testCases.TS_01_NavigateToBookshelvesPage"/>
+        <method signature="TS_02_VisibilityOfBookshelvesFilters.tc_003_handlePopup()[pri:0, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@2aceadd4]" name="tc_003_handlePopup" class="testCases.TS_02_VisibilityOfBookshelvesFilters"/>
+        <method signature="TS_03_SettingTheRequiredFilters.tc_010_setPriceSlider()[pri:0, instance:testCases.TS_03_SettingTheRequiredFilters@24aed80c]" name="tc_010_setPriceSlider" class="testCases.TS_03_SettingTheRequiredFilters"/>
+        <method signature="TS_04_DisplayBookShelvesDetails.tc_013_displayBookshelvesDetails()[pri:0, instance:testCases.TS_04_DisplayBookShelvesDetails@3a52dba3]" name="tc_013_displayBookshelvesDetails" class="testCases.TS_04_DisplayBookShelvesDetails"/>
+        <method signature="TS_05_GetListOfSubMenuItems.tc_014_isHomeDecorMenuPresent()[pri:0, instance:testCases.TS_05_GetListOfSubMenuItems@2a5c8d3f]" name="tc_014_isHomeDecorMenuPresent" class="testCases.TS_05_GetListOfSubMenuItems"/>
+        <method signature="TS_06_GiftCardCustomization.tc_016_validateGiftCardButton()[pri:0, instance:testCases.TS_06_GiftCardCustomization@279fedbd]" name="tc_016_validateGiftCardButton" class="testCases.TS_06_GiftCardCustomization"/>
+        <method signature="TS_07_ResipientAndSenderDetailsDDT.tc_020_enterRecipientDetailsDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_07_ResipientAndSenderDetailsDDT@b3ca52e]" name="tc_020_enterRecipientDetailsDDT" class="testCases.TS_07_ResipientAndSenderDetailsDDT"/>
+        <method signature="TS_01_NavigateToBookshelvesPage.tc_002_verifyBookshelvesPage()[pri:1, instance:testCases.TS_01_NavigateToBookshelvesPage@2cd76f31]" name="tc_002_verifyBookshelvesPage" class="testCases.TS_01_NavigateToBookshelvesPage"/>
+        <method signature="TS_03_SettingTheRequiredFilters.tc_011_setStorageType()[pri:1, instance:testCases.TS_03_SettingTheRequiredFilters@24aed80c]" name="tc_011_setStorageType" class="testCases.TS_03_SettingTheRequiredFilters"/>
+        <method signature="TS_05_GetListOfSubMenuItems.tc_015_getHomeDecorSubMenuItems()[pri:1, instance:testCases.TS_05_GetListOfSubMenuItems@2a5c8d3f]" name="tc_015_getHomeDecorSubMenuItems" class="testCases.TS_05_GetListOfSubMenuItems"/>
+        <method signature="TS_06_GiftCardCustomization.tc_017_navigateToGiftCardsPage()[pri:1, instance:testCases.TS_06_GiftCardCustomization@279fedbd]" name="tc_017_navigateToGiftCardsPage" class="testCases.TS_06_GiftCardCustomization"/>
+        <method signature="TS_07_ResipientAndSenderDetailsDDT.tc_021_enterSenderDetailsDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCases.TS_07_ResipientAndSenderDetailsDDT@b3ca52e]" name="tc_021_enterSenderDetailsDDT" class="testCases.TS_07_ResipientAndSenderDetailsDDT"/>
+        <method signature="TS_03_SettingTheRequiredFilters.tc_012_checkOutOfStock()[pri:2, instance:testCases.TS_03_SettingTheRequiredFilters@24aed80c]" name="tc_012_checkOutOfStock" class="testCases.TS_03_SettingTheRequiredFilters"/>
+        <method signature="TS_06_GiftCardCustomization.tc_018_verifyBirthdayCardIsDisplayed()[pri:2, instance:testCases.TS_06_GiftCardCustomization@279fedbd]" name="tc_018_verifyBirthdayCardIsDisplayed" class="testCases.TS_06_GiftCardCustomization"/>
+        <method signature="TS_06_GiftCardCustomization.tc_019_giftCardCustomization()[pri:3, instance:testCases.TS_06_GiftCardCustomization@279fedbd]" name="tc_019_giftCardCustomization" class="testCases.TS_06_GiftCardCustomization"/>
+      </group> <!-- Regression Test -->
+      <group name="Smoke Test">
+        <method signature="TS_01_NavigateToBookshelvesPage.tc_001_isBookShelvesButtonPresent()[pri:0, instance:testCases.TS_01_NavigateToBookshelvesPage@2cd76f31]" name="tc_001_isBookShelvesButtonPresent" class="testCases.TS_01_NavigateToBookshelvesPage"/>
+        <method signature="TS_02_VisibilityOfBookshelvesFilters.tc_003_handlePopup()[pri:0, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@2aceadd4]" name="tc_003_handlePopup" class="testCases.TS_02_VisibilityOfBookshelvesFilters"/>
+        <method signature="TS_05_GetListOfSubMenuItems.tc_014_isHomeDecorMenuPresent()[pri:0, instance:testCases.TS_05_GetListOfSubMenuItems@2a5c8d3f]" name="tc_014_isHomeDecorMenuPresent" class="testCases.TS_05_GetListOfSubMenuItems"/>
+        <method signature="TS_06_GiftCardCustomization.tc_016_validateGiftCardButton()[pri:0, instance:testCases.TS_06_GiftCardCustomization@279fedbd]" name="tc_016_validateGiftCardButton" class="testCases.TS_06_GiftCardCustomization"/>
+        <method signature="TS_01_NavigateToBookshelvesPage.tc_002_verifyBookshelvesPage()[pri:1, instance:testCases.TS_01_NavigateToBookshelvesPage@2cd76f31]" name="tc_002_verifyBookshelvesPage" class="testCases.TS_01_NavigateToBookshelvesPage"/>
+        <method signature="TS_02_VisibilityOfBookshelvesFilters.tc_004_isPriceFilterPresent()[pri:1, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@2aceadd4]" name="tc_004_isPriceFilterPresent" class="testCases.TS_02_VisibilityOfBookshelvesFilters"/>
+        <method signature="TS_06_GiftCardCustomization.tc_017_navigateToGiftCardsPage()[pri:1, instance:testCases.TS_06_GiftCardCustomization@279fedbd]" name="tc_017_navigateToGiftCardsPage" class="testCases.TS_06_GiftCardCustomization"/>
+        <method signature="TS_02_VisibilityOfBookshelvesFilters.tc_005_isStorageTypeFilterPresent()[pri:2, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@2aceadd4]" name="tc_005_isStorageTypeFilterPresent" class="testCases.TS_02_VisibilityOfBookshelvesFilters"/>
+        <method signature="TS_02_VisibilityOfBookshelvesFilters.tc_006_isBrandFilterPresent()[pri:3, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@2aceadd4]" name="tc_006_isBrandFilterPresent" class="testCases.TS_02_VisibilityOfBookshelvesFilters"/>
+        <method signature="TS_02_VisibilityOfBookshelvesFilters.tc_007_isOutOfStockCheckboxPresent()[pri:4, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@2aceadd4]" name="tc_007_isOutOfStockCheckboxPresent" class="testCases.TS_02_VisibilityOfBookshelvesFilters"/>
+        <method signature="TS_02_VisibilityOfBookshelvesFilters.tc_008_isPriceFilterHoverable()[pri:5, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@2aceadd4]" name="tc_008_isPriceFilterHoverable" class="testCases.TS_02_VisibilityOfBookshelvesFilters"/>
+        <method signature="TS_02_VisibilityOfBookshelvesFilters.tc_009_isStorageTypeFilterHoverable()[pri:6, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@2aceadd4]" name="tc_009_isStorageTypeFilterHoverable" class="testCases.TS_02_VisibilityOfBookshelvesFilters"/>
+      </group> <!-- Smoke Test -->
+    </groups>
+    <test started-at="2024-03-25T19:23:00 IST" name="Test" finished-at="2024-03-25T19:25:00 IST" duration-ms="119832">
+      <class name="testCases.TS_07_ResipientAndSenderDetailsDDT">
+        <test-method signature="tc_020_enterRecipientDetailsDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_07_ResipientAndSenderDetailsDDT@b3ca52e]" started-at="2024-03-25T19:24:41 IST" name="tc_020_enterRecipientDetailsDDT" data-provider="RecipientDetails" finished-at="2024-03-25T19:24:42 IST" duration-ms="607" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Recipient 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[recipient1@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9876543212]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_020_enterRecipientDetailsDDT -->
+        <test-method signature="tc_021_enterSenderDetailsDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCases.TS_07_ResipientAndSenderDetailsDDT@b3ca52e]" started-at="2024-03-25T19:24:43 IST" name="tc_021_enterSenderDetailsDDT" data-provider="SenderDetails" finished-at="2024-03-25T19:24:45 IST" duration-ms="2133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sender@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9876543212]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bazargate, Mumbai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_021_enterSenderDetailsDDT -->
+        <test-method signature="tc_021_enterSenderDetailsDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCases.TS_07_ResipientAndSenderDetailsDDT@b3ca52e]" started-at="2024-03-25T19:24:46 IST" name="tc_021_enterSenderDetailsDDT" data-provider="SenderDetails" finished-at="2024-03-25T19:24:47 IST" duration-ms="1625" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sender2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9876543212]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bazargate, Mumbai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_021_enterSenderDetailsDDT -->
+        <test-method signature="tc_021_enterSenderDetailsDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCases.TS_07_ResipientAndSenderDetailsDDT@b3ca52e]" started-at="2024-03-25T19:24:47 IST" name="tc_021_enterSenderDetailsDDT" data-provider="SenderDetails" finished-at="2024-03-25T19:24:49 IST" duration-ms="1555" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sender3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sender]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9876543212]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bazargate, Mumbai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_021_enterSenderDetailsDDT -->
+        <test-method signature="tc_021_enterSenderDetailsDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCases.TS_07_ResipientAndSenderDetailsDDT@b3ca52e]" started-at="2024-03-25T19:24:49 IST" name="tc_021_enterSenderDetailsDDT" data-provider="SenderDetails" finished-at="2024-03-25T19:24:51 IST" duration-ms="1624" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sender4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sender@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bazargate, Mumbai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_021_enterSenderDetailsDDT -->
+        <test-method signature="tc_021_enterSenderDetailsDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCases.TS_07_ResipientAndSenderDetailsDDT@b3ca52e]" started-at="2024-03-25T19:24:51 IST" name="tc_021_enterSenderDetailsDDT" data-provider="SenderDetails" finished-at="2024-03-25T19:24:53 IST" duration-ms="1662" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sender5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sender@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9876543]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bazargate, Mumbai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_021_enterSenderDetailsDDT -->
+        <test-method signature="tc_021_enterSenderDetailsDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCases.TS_07_ResipientAndSenderDetailsDDT@b3ca52e]" started-at="2024-03-25T19:24:53 IST" name="tc_021_enterSenderDetailsDDT" data-provider="SenderDetails" finished-at="2024-03-25T19:24:54 IST" duration-ms="1401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sender6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sender@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9876543212]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_021_enterSenderDetailsDDT -->
+        <test-method signature="tc_021_enterSenderDetailsDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCases.TS_07_ResipientAndSenderDetailsDDT@b3ca52e]" started-at="2024-03-25T19:24:54 IST" name="tc_021_enterSenderDetailsDDT" data-provider="SenderDetails" finished-at="2024-03-25T19:24:56 IST" duration-ms="1444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_021_enterSenderDetailsDDT -->
+      </class> <!-- testCases.TS_07_ResipientAndSenderDetailsDDT -->
+      <class name="testCases.TS_03_SettingTheRequiredFilters">
+        <test-method signature="tc_010_setPriceSlider()[pri:0, instance:testCases.TS_03_SettingTheRequiredFilters@24aed80c]" started-at="2024-03-25T19:24:09 IST" name="tc_010_setPriceSlider" finished-at="2024-03-25T19:24:10 IST" duration-ms="789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_010_setPriceSlider -->
+        <test-method signature="tc_011_setStorageType()[pri:1, instance:testCases.TS_03_SettingTheRequiredFilters@24aed80c]" started-at="2024-03-25T19:24:10 IST" name="tc_011_setStorageType" finished-at="2024-03-25T19:24:10 IST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_011_setStorageType -->
+        <test-method signature="tc_012_checkOutOfStock()[pri:2, instance:testCases.TS_03_SettingTheRequiredFilters@24aed80c]" started-at="2024-03-25T19:24:11 IST" name="tc_012_checkOutOfStock" finished-at="2024-03-25T19:24:11 IST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_012_checkOutOfStock -->
+      </class> <!-- testCases.TS_03_SettingTheRequiredFilters -->
+      <class name="testCases.TS_05_GetListOfSubMenuItems">
+        <test-method signature="tc_014_isHomeDecorMenuPresent()[pri:0, instance:testCases.TS_05_GetListOfSubMenuItems@2a5c8d3f]" started-at="2024-03-25T19:24:28 IST" name="tc_014_isHomeDecorMenuPresent" finished-at="2024-03-25T19:24:33 IST" duration-ms="5433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_014_isHomeDecorMenuPresent -->
+        <test-method signature="tc_015_getHomeDecorSubMenuItems()[pri:1, instance:testCases.TS_05_GetListOfSubMenuItems@2a5c8d3f]" started-at="2024-03-25T19:24:34 IST" name="tc_015_getHomeDecorSubMenuItems" finished-at="2024-03-25T19:24:34 IST" duration-ms="837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_015_getHomeDecorSubMenuItems -->
+      </class> <!-- testCases.TS_05_GetListOfSubMenuItems -->
+      <class name="testCases.TS_01_NavigateToBookshelvesPage">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TS_01_NavigateToBookshelvesPage@2cd76f31]" started-at="2024-03-25T19:23:01 IST" name="setup" finished-at="2024-03-25T19:23:55 IST" duration-ms="53487" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc_001_isBookShelvesButtonPresent()[pri:0, instance:testCases.TS_01_NavigateToBookshelvesPage@2cd76f31]" started-at="2024-03-25T19:23:55 IST" name="tc_001_isBookShelvesButtonPresent" finished-at="2024-03-25T19:23:56 IST" duration-ms="1845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_001_isBookShelvesButtonPresent -->
+        <test-method signature="tc_002_verifyBookshelvesPage()[pri:1, instance:testCases.TS_01_NavigateToBookshelvesPage@2cd76f31]" started-at="2024-03-25T19:23:57 IST" name="tc_002_verifyBookshelvesPage" finished-at="2024-03-25T19:24:00 IST" depends-on-methods="testCases.TS_01_NavigateToBookshelvesPage.tc_001_isBookShelvesButtonPresent" duration-ms="2905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_002_verifyBookshelvesPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TS_01_NavigateToBookshelvesPage@2cd76f31]" started-at="2024-03-25T19:24:56 IST" name="teardown" finished-at="2024-03-25T19:25:00 IST" duration-ms="4261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TS_01_NavigateToBookshelvesPage -->
+      <class name="testCases.TS_06_GiftCardCustomization">
+        <test-method signature="tc_016_validateGiftCardButton()[pri:0, instance:testCases.TS_06_GiftCardCustomization@279fedbd]" started-at="2024-03-25T19:24:35 IST" name="tc_016_validateGiftCardButton" finished-at="2024-03-25T19:24:35 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_016_validateGiftCardButton -->
+        <test-method signature="tc_017_navigateToGiftCardsPage()[pri:1, instance:testCases.TS_06_GiftCardCustomization@279fedbd]" started-at="2024-03-25T19:24:35 IST" name="tc_017_navigateToGiftCardsPage" finished-at="2024-03-25T19:24:39 IST" duration-ms="3387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_017_navigateToGiftCardsPage -->
+        <test-method signature="tc_018_verifyBirthdayCardIsDisplayed()[pri:2, instance:testCases.TS_06_GiftCardCustomization@279fedbd]" started-at="2024-03-25T19:24:39 IST" name="tc_018_verifyBirthdayCardIsDisplayed" finished-at="2024-03-25T19:24:39 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_018_verifyBirthdayCardIsDisplayed -->
+        <test-method signature="tc_019_giftCardCustomization()[pri:3, instance:testCases.TS_06_GiftCardCustomization@279fedbd]" started-at="2024-03-25T19:24:39 IST" name="tc_019_giftCardCustomization" finished-at="2024-03-25T19:24:41 IST" duration-ms="1356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_019_giftCardCustomization -->
+      </class> <!-- testCases.TS_06_GiftCardCustomization -->
+      <class name="testCases.TS_04_DisplayBookShelvesDetails">
+        <test-method signature="tc_013_displayBookshelvesDetails()[pri:0, instance:testCases.TS_04_DisplayBookShelvesDetails@3a52dba3]" started-at="2024-03-25T19:24:11 IST" name="tc_013_displayBookshelvesDetails" finished-at="2024-03-25T19:24:27 IST" duration-ms="16167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_013_displayBookshelvesDetails -->
+      </class> <!-- testCases.TS_04_DisplayBookShelvesDetails -->
+      <class name="testCases.TS_02_VisibilityOfBookshelvesFilters">
+        <test-method signature="tc_003_handlePopup()[pri:0, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@2aceadd4]" started-at="2024-03-25T19:24:00 IST" name="tc_003_handlePopup" finished-at="2024-03-25T19:24:06 IST" duration-ms="5578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_003_handlePopup -->
+        <test-method signature="tc_004_isPriceFilterPresent()[pri:1, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@2aceadd4]" started-at="2024-03-25T19:24:06 IST" name="tc_004_isPriceFilterPresent" finished-at="2024-03-25T19:24:06 IST" depends-on-methods="testCases.TS_02_VisibilityOfBookshelvesFilters.tc_003_handlePopup" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_004_isPriceFilterPresent -->
+        <test-method signature="tc_005_isStorageTypeFilterPresent()[pri:2, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@2aceadd4]" started-at="2024-03-25T19:24:07 IST" name="tc_005_isStorageTypeFilterPresent" finished-at="2024-03-25T19:24:07 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_005_isStorageTypeFilterPresent -->
+        <test-method signature="tc_006_isBrandFilterPresent()[pri:3, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@2aceadd4]" started-at="2024-03-25T19:24:07 IST" name="tc_006_isBrandFilterPresent" finished-at="2024-03-25T19:24:07 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_006_isBrandFilterPresent -->
+        <test-method signature="tc_007_isOutOfStockCheckboxPresent()[pri:4, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@2aceadd4]" started-at="2024-03-25T19:24:07 IST" name="tc_007_isOutOfStockCheckboxPresent" finished-at="2024-03-25T19:24:07 IST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_007_isOutOfStockCheckboxPresent -->
+        <test-method signature="tc_008_isPriceFilterHoverable()[pri:5, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@2aceadd4]" started-at="2024-03-25T19:24:08 IST" name="tc_008_isPriceFilterHoverable" finished-at="2024-03-25T19:24:08 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_008_isPriceFilterHoverable -->
+        <test-method signature="tc_009_isStorageTypeFilterHoverable()[pri:6, instance:testCases.TS_02_VisibilityOfBookshelvesFilters@2aceadd4]" started-at="2024-03-25T19:24:08 IST" name="tc_009_isStorageTypeFilterHoverable" finished-at="2024-03-25T19:24:09 IST" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_009_isStorageTypeFilterHoverable -->
+      </class> <!-- testCases.TS_02_VisibilityOfBookshelvesFilters -->
+    </test> <!-- Test -->
+  </suite> <!-- MasterSuite -->
+</testng-results>

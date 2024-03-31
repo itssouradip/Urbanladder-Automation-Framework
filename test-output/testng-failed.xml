@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MasterSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="OS" value="Windows"/>
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="testScenarios.EndToEnd">
+        <methods>
+          <include name="teardown"/>
+          <include name="getHomeDecorSubMenuItems"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testScenarios.EndToEnd -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [MasterSuite] -->

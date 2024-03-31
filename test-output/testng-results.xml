@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="27" passed="27" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-31T11:34:48 IST" name="MasterSuite" finished-at="2024-03-31T11:36:43 IST" duration-ms="115552">
+    <groups>
+      <group name="Master">
+        <method signature="EndToEnd.isBookShelvesButtonPresent()[pri:0, instance:testScenarios.EndToEnd@1c5920df]" name="isBookShelvesButtonPresent" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.verifyBookshelvesPage()[pri:1, instance:testScenarios.EndToEnd@1c5920df]" name="verifyBookshelvesPage" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.handlePopup()[pri:2, instance:testScenarios.EndToEnd@1c5920df]" name="handlePopup" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.isPriceFilterPresent()[pri:3, instance:testScenarios.EndToEnd@1c5920df]" name="isPriceFilterPresent" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.isStorageTypeFilterPresent()[pri:4, instance:testScenarios.EndToEnd@1c5920df]" name="isStorageTypeFilterPresent" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.isBrandFilterPresent()[pri:5, instance:testScenarios.EndToEnd@1c5920df]" name="isBrandFilterPresent" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.isOutOfStockCheckboxPresent()[pri:6, instance:testScenarios.EndToEnd@1c5920df]" name="isOutOfStockCheckboxPresent" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.isPriceFilterHoverable()[pri:7, instance:testScenarios.EndToEnd@1c5920df]" name="isPriceFilterHoverable" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.isStorageTypeFilterHoverable()[pri:8, instance:testScenarios.EndToEnd@1c5920df]" name="isStorageTypeFilterHoverable" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.setPriceSlider()[pri:9, instance:testScenarios.EndToEnd@1c5920df]" name="setPriceSlider" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.setStorageType()[pri:10, instance:testScenarios.EndToEnd@1c5920df]" name="setStorageType" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.checkOutOfStock()[pri:11, instance:testScenarios.EndToEnd@1c5920df]" name="checkOutOfStock" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.displayBookshelvesDetails()[pri:12, instance:testScenarios.EndToEnd@1c5920df]" name="displayBookshelvesDetails" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.isHomeDecorMenuPresent()[pri:13, instance:testScenarios.EndToEnd@1c5920df]" name="isHomeDecorMenuPresent" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.getHomeDecorSubMenuItems()[pri:14, instance:testScenarios.EndToEnd@1c5920df]" name="getHomeDecorSubMenuItems" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.validateGiftCardButton()[pri:15, instance:testScenarios.EndToEnd@1c5920df]" name="validateGiftCardButton" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.navigateToGiftCardsPage()[pri:16, instance:testScenarios.EndToEnd@1c5920df]" name="navigateToGiftCardsPage" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.verifyBirthdayCardIsDisplayed()[pri:17, instance:testScenarios.EndToEnd@1c5920df]" name="verifyBirthdayCardIsDisplayed" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.giftCardCustomization()[pri:18, instance:testScenarios.EndToEnd@1c5920df]" name="giftCardCustomization" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.enterRecipientDetailsDDT(java.lang.String,java.lang.String,java.lang.String)[pri:19, instance:testScenarios.EndToEnd@1c5920df]" name="enterRecipientDetailsDDT" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.enterSenderDetailsDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:20, instance:testScenarios.EndToEnd@1c5920df]" name="enterSenderDetailsDDT" class="testScenarios.EndToEnd"/>
+      </group> <!-- Master -->
+      <group name="Regression Test">
+        <method signature="EndToEnd.isBookShelvesButtonPresent()[pri:0, instance:testScenarios.EndToEnd@1c5920df]" name="isBookShelvesButtonPresent" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.verifyBookshelvesPage()[pri:1, instance:testScenarios.EndToEnd@1c5920df]" name="verifyBookshelvesPage" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.handlePopup()[pri:2, instance:testScenarios.EndToEnd@1c5920df]" name="handlePopup" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.setPriceSlider()[pri:9, instance:testScenarios.EndToEnd@1c5920df]" name="setPriceSlider" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.setStorageType()[pri:10, instance:testScenarios.EndToEnd@1c5920df]" name="setStorageType" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.checkOutOfStock()[pri:11, instance:testScenarios.EndToEnd@1c5920df]" name="checkOutOfStock" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.displayBookshelvesDetails()[pri:12, instance:testScenarios.EndToEnd@1c5920df]" name="displayBookshelvesDetails" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.isHomeDecorMenuPresent()[pri:13, instance:testScenarios.EndToEnd@1c5920df]" name="isHomeDecorMenuPresent" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.getHomeDecorSubMenuItems()[pri:14, instance:testScenarios.EndToEnd@1c5920df]" name="getHomeDecorSubMenuItems" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.validateGiftCardButton()[pri:15, instance:testScenarios.EndToEnd@1c5920df]" name="validateGiftCardButton" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.navigateToGiftCardsPage()[pri:16, instance:testScenarios.EndToEnd@1c5920df]" name="navigateToGiftCardsPage" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.verifyBirthdayCardIsDisplayed()[pri:17, instance:testScenarios.EndToEnd@1c5920df]" name="verifyBirthdayCardIsDisplayed" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.giftCardCustomization()[pri:18, instance:testScenarios.EndToEnd@1c5920df]" name="giftCardCustomization" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.enterRecipientDetailsDDT(java.lang.String,java.lang.String,java.lang.String)[pri:19, instance:testScenarios.EndToEnd@1c5920df]" name="enterRecipientDetailsDDT" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.enterSenderDetailsDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:20, instance:testScenarios.EndToEnd@1c5920df]" name="enterSenderDetailsDDT" class="testScenarios.EndToEnd"/>
+      </group> <!-- Regression Test -->
+      <group name="Smoke Test">
+        <method signature="EndToEnd.isBookShelvesButtonPresent()[pri:0, instance:testScenarios.EndToEnd@1c5920df]" name="isBookShelvesButtonPresent" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.verifyBookshelvesPage()[pri:1, instance:testScenarios.EndToEnd@1c5920df]" name="verifyBookshelvesPage" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.handlePopup()[pri:2, instance:testScenarios.EndToEnd@1c5920df]" name="handlePopup" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.isPriceFilterPresent()[pri:3, instance:testScenarios.EndToEnd@1c5920df]" name="isPriceFilterPresent" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.isStorageTypeFilterPresent()[pri:4, instance:testScenarios.EndToEnd@1c5920df]" name="isStorageTypeFilterPresent" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.isBrandFilterPresent()[pri:5, instance:testScenarios.EndToEnd@1c5920df]" name="isBrandFilterPresent" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.isOutOfStockCheckboxPresent()[pri:6, instance:testScenarios.EndToEnd@1c5920df]" name="isOutOfStockCheckboxPresent" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.isPriceFilterHoverable()[pri:7, instance:testScenarios.EndToEnd@1c5920df]" name="isPriceFilterHoverable" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.isStorageTypeFilterHoverable()[pri:8, instance:testScenarios.EndToEnd@1c5920df]" name="isStorageTypeFilterHoverable" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.isHomeDecorMenuPresent()[pri:13, instance:testScenarios.EndToEnd@1c5920df]" name="isHomeDecorMenuPresent" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.validateGiftCardButton()[pri:15, instance:testScenarios.EndToEnd@1c5920df]" name="validateGiftCardButton" class="testScenarios.EndToEnd"/>
+        <method signature="EndToEnd.navigateToGiftCardsPage()[pri:16, instance:testScenarios.EndToEnd@1c5920df]" name="navigateToGiftCardsPage" class="testScenarios.EndToEnd"/>
+      </group> <!-- Smoke Test -->
+    </groups>
+    <test started-at="2024-03-31T11:34:48 IST" name="Test" finished-at="2024-03-31T11:36:43 IST" duration-ms="115552">
+      <class name="testScenarios.EndToEnd">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testScenarios.EndToEnd@1c5920df]" started-at="2024-03-31T11:34:48 IST" name="setup" finished-at="2024-03-31T11:35:01 IST" duration-ms="12731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="isBookShelvesButtonPresent()[pri:0, instance:testScenarios.EndToEnd@1c5920df]" started-at="2024-03-31T11:35:01 IST" name="isBookShelvesButtonPresent" finished-at="2024-03-31T11:35:02 IST" duration-ms="535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isBookShelvesButtonPresent -->
+        <test-method signature="verifyBookshelvesPage()[pri:1, instance:testScenarios.EndToEnd@1c5920df]" started-at="2024-03-31T11:35:03 IST" name="verifyBookshelvesPage" finished-at="2024-03-31T11:35:06 IST" depends-on-methods="testScenarios.EndToEnd.isBookShelvesButtonPresent" duration-ms="3637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBookshelvesPage -->
+        <test-method signature="handlePopup()[pri:2, instance:testScenarios.EndToEnd@1c5920df]" started-at="2024-03-31T11:35:07 IST" name="handlePopup" finished-at="2024-03-31T11:35:13 IST" duration-ms="5770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handlePopup -->
+        <test-method signature="isPriceFilterPresent()[pri:3, instance:testScenarios.EndToEnd@1c5920df]" started-at="2024-03-31T11:35:13 IST" name="isPriceFilterPresent" finished-at="2024-03-31T11:35:13 IST" depends-on-methods="testScenarios.EndToEnd.handlePopup" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPriceFilterPresent -->
+        <test-method signature="isStorageTypeFilterPresent()[pri:4, instance:testScenarios.EndToEnd@1c5920df]" started-at="2024-03-31T11:35:14 IST" name="isStorageTypeFilterPresent" finished-at="2024-03-31T11:35:14 IST" depends-on-methods="testScenarios.EndToEnd.handlePopup" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isStorageTypeFilterPresent -->
+        <test-method signature="isBrandFilterPresent()[pri:5, instance:testScenarios.EndToEnd@1c5920df]" started-at="2024-03-31T11:35:14 IST" name="isBrandFilterPresent" finished-at="2024-03-31T11:35:14 IST" depends-on-methods="testScenarios.EndToEnd.handlePopup" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isBrandFilterPresent -->
+        <test-method signature="isOutOfStockCheckboxPresent()[pri:6, instance:testScenarios.EndToEnd@1c5920df]" started-at="2024-03-31T11:35:15 IST" name="isOutOfStockCheckboxPresent" finished-at="2024-03-31T11:35:15 IST" depends-on-methods="testScenarios.EndToEnd.handlePopup" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isOutOfStockCheckboxPresent -->
+        <test-method signature="isPriceFilterHoverable()[pri:7, instance:testScenarios.EndToEnd@1c5920df]" started-at="2024-03-31T11:35:15 IST" name="isPriceFilterHoverable" finished-at="2024-03-31T11:35:15 IST" depends-on-methods="testScenarios.EndToEnd.isPriceFilterPresent" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPriceFilterHoverable -->
+        <test-method signature="isStorageTypeFilterHoverable()[pri:8, instance:testScenarios.EndToEnd@1c5920df]" started-at="2024-03-31T11:35:16 IST" name="isStorageTypeFilterHoverable" finished-at="2024-03-31T11:35:16 IST" depends-on-methods="testScenarios.EndToEnd.isStorageTypeFilterPresent" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isStorageTypeFilterHoverable -->
+        <test-method signature="setPriceSlider()[pri:9, instance:testScenarios.EndToEnd@1c5920df]" started-at="2024-03-31T11:35:17 IST" name="setPriceSlider" finished-at="2024-03-31T11:35:18 IST" duration-ms="1273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPriceSlider -->
+        <test-method signature="setStorageType()[pri:10, instance:testScenarios.EndToEnd@1c5920df]" started-at="2024-03-31T11:35:18 IST" name="setStorageType" finished-at="2024-03-31T11:35:19 IST" duration-ms="494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setStorageType -->
+        <test-method signature="checkOutOfStock()[pri:11, instance:testScenarios.EndToEnd@1c5920df]" started-at="2024-03-31T11:35:19 IST" name="checkOutOfStock" finished-at="2024-03-31T11:35:19 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutOfStock -->
+        <test-method signature="displayBookshelvesDetails()[pri:12, instance:testScenarios.EndToEnd@1c5920df]" started-at="2024-03-31T11:35:20 IST" name="displayBookshelvesDetails" finished-at="2024-03-31T11:35:40 IST" duration-ms="20074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayBookshelvesDetails -->
+        <test-method signature="isHomeDecorMenuPresent()[pri:13, instance:testScenarios.EndToEnd@1c5920df]" started-at="2024-03-31T11:35:40 IST" name="isHomeDecorMenuPresent" finished-at="2024-03-31T11:35:46 IST" duration-ms="5622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isHomeDecorMenuPresent -->
+        <test-method signature="getHomeDecorSubMenuItems()[pri:14, instance:testScenarios.EndToEnd@1c5920df]" started-at="2024-03-31T11:35:46 IST" name="getHomeDecorSubMenuItems" finished-at="2024-03-31T11:35:49 IST" duration-ms="2905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHomeDecorSubMenuItems -->
+        <test-method signature="validateGiftCardButton()[pri:15, instance:testScenarios.EndToEnd@1c5920df]" started-at="2024-03-31T11:35:49 IST" name="validateGiftCardButton" finished-at="2024-03-31T11:35:49 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGiftCardButton -->
+        <test-method signature="navigateToGiftCardsPage()[pri:16, instance:testScenarios.EndToEnd@1c5920df]" started-at="2024-03-31T11:35:50 IST" name="navigateToGiftCardsPage" finished-at="2024-03-31T11:36:02 IST" duration-ms="12568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToGiftCardsPage -->
+        <test-method signature="verifyBirthdayCardIsDisplayed()[pri:17, instance:testScenarios.EndToEnd@1c5920df]" started-at="2024-03-31T11:36:03 IST" name="verifyBirthdayCardIsDisplayed" finished-at="2024-03-31T11:36:03 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBirthdayCardIsDisplayed -->
+        <test-method signature="giftCardCustomization()[pri:18, instance:testScenarios.EndToEnd@1c5920df]" started-at="2024-03-31T11:36:03 IST" name="giftCardCustomization" finished-at="2024-03-31T11:36:05 IST" duration-ms="1718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- giftCardCustomization -->
+        <test-method signature="enterRecipientDetailsDDT(java.lang.String,java.lang.String,java.lang.String)[pri:19, instance:testScenarios.EndToEnd@1c5920df]" started-at="2024-03-31T11:36:06 IST" name="enterRecipientDetailsDDT" data-provider="RecipientDetails" finished-at="2024-03-31T11:36:08 IST" duration-ms="1708" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[smith@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9876543215]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterRecipientDetailsDDT -->
+        <test-method signature="enterSenderDetailsDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:20, instance:testScenarios.EndToEnd@1c5920df]" started-at="2024-03-31T11:36:10 IST" name="enterSenderDetailsDDT" data-provider="SenderDetails" finished-at="2024-03-31T11:36:15 IST" duration-ms="5558" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[john@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bandra, Mumbai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterSenderDetailsDDT -->
+        <test-method signature="enterSenderDetailsDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:20, instance:testScenarios.EndToEnd@1c5920df]" started-at="2024-03-31T11:36:15 IST" name="enterSenderDetailsDDT" data-provider="SenderDetails" finished-at="2024-03-31T11:36:17 IST" duration-ms="2082" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Joe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9876543211]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bandra, Mumbai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterSenderDetailsDDT -->
+        <test-method signature="enterSenderDetailsDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:20, instance:testScenarios.EndToEnd@1c5920df]" started-at="2024-03-31T11:36:18 IST" name="enterSenderDetailsDDT" data-provider="SenderDetails" finished-at="2024-03-31T11:36:20 IST" duration-ms="2222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Antony]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[antony]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9876543212]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bandra, Mumbai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterSenderDetailsDDT -->
+        <test-method signature="enterSenderDetailsDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:20, instance:testScenarios.EndToEnd@1c5920df]" started-at="2024-03-31T11:36:20 IST" name="enterSenderDetailsDDT" data-provider="SenderDetails" finished-at="2024-03-31T11:36:23 IST" duration-ms="2674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Andrew]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[andrew@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bandra, Mumbai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterSenderDetailsDDT -->
+        <test-method signature="enterSenderDetailsDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:20, instance:testScenarios.EndToEnd@1c5920df]" started-at="2024-03-31T11:36:23 IST" name="enterSenderDetailsDDT" data-provider="SenderDetails" finished-at="2024-03-31T11:36:29 IST" duration-ms="6173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Claire]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[claire@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9876543]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bandra, Mumbai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterSenderDetailsDDT -->
+        <test-method signature="enterSenderDetailsDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:20, instance:testScenarios.EndToEnd@1c5920df]" started-at="2024-03-31T11:36:29 IST" name="enterSenderDetailsDDT" data-provider="SenderDetails" finished-at="2024-03-31T11:36:31 IST" duration-ms="2109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samantha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[samantha@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9876543213]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterSenderDetailsDDT -->
+        <test-method signature="enterSenderDetailsDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:20, instance:testScenarios.EndToEnd@1c5920df]" started-at="2024-03-31T11:36:32 IST" name="enterSenderDetailsDDT" data-provider="SenderDetails" finished-at="2024-03-31T11:36:35 IST" duration-ms="3223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterSenderDetailsDDT -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testScenarios.EndToEnd@1c5920df]" started-at="2024-03-31T11:36:35 IST" name="teardown" finished-at="2024-03-31T11:36:43 IST" duration-ms="7841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testScenarios.EndToEnd -->
+    </test> <!-- Test -->
+  </suite> <!-- MasterSuite -->
+</testng-results>

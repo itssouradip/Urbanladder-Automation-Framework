@@ -1,0 +1,96 @@
+11:31:12.797 [main] INFO  testScenarios.EndToEnd - *** Starting of NavigateToBookshelvesPage ***
+11:31:19.007 [main] INFO  testScenarios.EndToEnd - Bookshelve page loaded successfully
+11:31:19.008 [main] INFO  testScenarios.EndToEnd - *** Ending of NavigateToBookshelvesPage ***
+11:31:19.427 [main] INFO  testScenarios.EndToEnd - *** Starting of VisibilityOfBookshelvesFilters ***
+11:31:25.860 [main] INFO  testScenarios.EndToEnd - Pop-up handled successfully
+11:31:30.661 [main] INFO  testScenarios.EndToEnd - *** All filters in Bookshelve page is interactable ***
+11:31:30.661 [main] INFO  testScenarios.EndToEnd - *** Ending of VisibilityOfBookshelvesFilters ***
+11:31:31.037 [main] INFO  testScenarios.EndToEnd - *** Starting of SettingTheRequiredFilters ***
+11:31:32.732 [main] INFO  testScenarios.EndToEnd -  Setting price filter successfully 
+11:31:34.152 [main] INFO  testScenarios.EndToEnd -  Setting storage type as open 
+11:31:35.416 [main] INFO  testScenarios.EndToEnd -  Exclude out of stock product 
+11:31:35.416 [main] INFO  testScenarios.EndToEnd - *** Ending of SettingTheRequiredFilters ***
+11:31:35.957 [main] INFO  testScenarios.EndToEnd - *** Starting of DisplayBookShelvesDetails ***
+11:31:48.034 [main] INFO  testScenarios.EndToEnd -  Printing bookshelves on console 
+11:31:48.035 [main] INFO  testScenarios.EndToEnd -  Printing bookshelves on excel sheet 
+11:31:49.218 [main] INFO  testScenarios.EndToEnd - *** Ending of DisplayBookShelvesDetails ***
+11:31:49.961 [main] INFO  testScenarios.EndToEnd - *** Starting of GetListOfSubMenuItems ***
+11:31:52.099 [main] INFO  testScenarios.EndToEnd -  Home Decore menu and sub-menu loaded successfully 
+11:31:55.060 [main] INFO  testScenarios.EndToEnd -  Printing Home decore items on console 
+11:31:55.090 [main] INFO  testScenarios.EndToEnd -  Printing Home decore items on excel sheets 
+11:31:56.134 [main] INFO  testScenarios.EndToEnd -  Printing Home decore items loading failed 
+11:31:56.563 [main] INFO  testScenarios.EndToEnd - *** Starting of GiftCardCustomization ***
+11:32:07.409 [main] INFO  testScenarios.EndToEnd -  Gift card button clicked successfully 
+11:32:08.608 [main] INFO  testScenarios.EndToEnd -  Gift card Customization starts 
+11:32:10.859 [main] INFO  testScenarios.EndToEnd - *** Ending of GiftCardCustomization ***
+11:32:12.089 [main] INFO  testScenarios.EndToEnd - *** Starting of RecipientAndSenderDetailsDDT ***
+11:32:12.089 [main] INFO  testScenarios.EndToEnd -  Setting Recipient details through Data Driven Approach 
+11:32:15.973 [main] INFO  testScenarios.EndToEnd -  Setting Sender details through Data Driven Approach 
+11:32:18.608 [main] INFO  testScenarios.EndToEnd -  All error message got captured 
+11:32:18.609 [main] INFO  testScenarios.EndToEnd - *** Ending of RecipientAndSenderDetailsDDT ***
+11:32:18.817 [main] INFO  testScenarios.EndToEnd -  Setting Sender details through Data Driven Approach 
+11:32:20.536 [main] INFO  testScenarios.EndToEnd -  All error message got captured 
+11:32:20.536 [main] INFO  testScenarios.EndToEnd - *** Ending of RecipientAndSenderDetailsDDT ***
+11:32:20.769 [main] INFO  testScenarios.EndToEnd -  Setting Sender details through Data Driven Approach 
+11:32:23.540 [main] INFO  testScenarios.EndToEnd -  All error message got captured 
+11:32:23.540 [main] INFO  testScenarios.EndToEnd - *** Ending of RecipientAndSenderDetailsDDT ***
+11:32:23.752 [main] INFO  testScenarios.EndToEnd -  Setting Sender details through Data Driven Approach 
+11:32:27.197 [main] INFO  testScenarios.EndToEnd -  All error message got captured 
+11:32:27.197 [main] INFO  testScenarios.EndToEnd - *** Ending of RecipientAndSenderDetailsDDT ***
+11:32:27.444 [main] INFO  testScenarios.EndToEnd -  Setting Sender details through Data Driven Approach 
+11:32:37.654 [main] INFO  testScenarios.EndToEnd -  All error message got captured 
+11:32:37.655 [main] INFO  testScenarios.EndToEnd - *** Ending of RecipientAndSenderDetailsDDT ***
+11:32:37.889 [main] INFO  testScenarios.EndToEnd -  Setting Sender details through Data Driven Approach 
+11:32:41.861 [main] INFO  testScenarios.EndToEnd -  All error message got captured 
+11:32:41.861 [main] INFO  testScenarios.EndToEnd - *** Ending of RecipientAndSenderDetailsDDT ***
+11:32:42.063 [main] INFO  testScenarios.EndToEnd -  Setting Sender details through Data Driven Approach 
+11:32:43.697 [main] INFO  testScenarios.EndToEnd -  All error message got captured 
+11:32:43.697 [main] INFO  testScenarios.EndToEnd - *** Ending of RecipientAndSenderDetailsDDT ***
+11:35:01.692 [main] INFO  testScenarios.EndToEnd - *** Starting of NavigateToBookshelvesPage ***
+11:35:06.892 [main] INFO  testScenarios.EndToEnd - Bookshelve page loaded successfully
+11:35:06.892 [main] INFO  testScenarios.EndToEnd - *** Ending of NavigateToBookshelvesPage ***
+11:35:07.274 [main] INFO  testScenarios.EndToEnd - *** Starting of VisibilityOfBookshelvesFilters ***
+11:35:13.042 [main] INFO  testScenarios.EndToEnd - Pop-up handled successfully
+11:35:16.759 [main] INFO  testScenarios.EndToEnd - *** All filters in Bookshelve page is interactable ***
+11:35:16.759 [main] INFO  testScenarios.EndToEnd - *** Ending of VisibilityOfBookshelvesFilters ***
+11:35:17.101 [main] INFO  testScenarios.EndToEnd - *** Starting of SettingTheRequiredFilters ***
+11:35:18.371 [main] INFO  testScenarios.EndToEnd -  Setting price filter successfully 
+11:35:19.201 [main] INFO  testScenarios.EndToEnd -  Setting storage type as open 
+11:35:19.859 [main] INFO  testScenarios.EndToEnd -  Exclude out of stock product 
+11:35:19.859 [main] INFO  testScenarios.EndToEnd - *** Ending of SettingTheRequiredFilters ***
+11:35:20.251 [main] INFO  testScenarios.EndToEnd - *** Starting of DisplayBookShelvesDetails ***
+11:35:39.283 [main] INFO  testScenarios.EndToEnd -  Printing bookshelves on console 
+11:35:39.284 [main] INFO  testScenarios.EndToEnd -  Printing bookshelves on excel sheet 
+11:35:40.324 [main] INFO  testScenarios.EndToEnd - *** Ending of DisplayBookShelvesDetails ***
+11:35:40.680 [main] INFO  testScenarios.EndToEnd - *** Starting of GetListOfSubMenuItems ***
+11:35:46.300 [main] INFO  testScenarios.EndToEnd -  Home Decore menu and sub-menu loaded successfully 
+11:35:47.074 [main] INFO  testScenarios.EndToEnd -  Printing Home decore items on console 
+11:35:47.074 [main] INFO  testScenarios.EndToEnd -  Printing Home decore items on excel sheets 
+11:35:49.461 [main] INFO  testScenarios.EndToEnd - *** Ending of GetListOfSubMenuItems ***
+11:35:49.734 [main] INFO  testScenarios.EndToEnd - *** Starting of GiftCardCustomization ***
+11:36:02.792 [main] INFO  testScenarios.EndToEnd -  Gift card button clicked successfully 
+11:36:03.895 [main] INFO  testScenarios.EndToEnd -  Gift card Customization starts 
+11:36:05.612 [main] INFO  testScenarios.EndToEnd - *** Ending of GiftCardCustomization ***
+11:36:06.435 [main] INFO  testScenarios.EndToEnd - *** Starting of RecipientAndSenderDetailsDDT ***
+11:36:06.435 [main] INFO  testScenarios.EndToEnd -  Setting Recipient details through Data Driven Approach 
+11:36:10.112 [main] INFO  testScenarios.EndToEnd -  Setting Sender details through Data Driven Approach 
+11:36:15.649 [main] INFO  testScenarios.EndToEnd -  All error message got captured 
+11:36:15.649 [main] INFO  testScenarios.EndToEnd - *** Ending of RecipientAndSenderDetailsDDT ***
+11:36:15.843 [main] INFO  testScenarios.EndToEnd -  Setting Sender details through Data Driven Approach 
+11:36:17.923 [main] INFO  testScenarios.EndToEnd -  All error message got captured 
+11:36:17.924 [main] INFO  testScenarios.EndToEnd - *** Ending of RecipientAndSenderDetailsDDT ***
+11:36:18.119 [main] INFO  testScenarios.EndToEnd -  Setting Sender details through Data Driven Approach 
+11:36:20.339 [main] INFO  testScenarios.EndToEnd -  All error message got captured 
+11:36:20.339 [main] INFO  testScenarios.EndToEnd - *** Ending of RecipientAndSenderDetailsDDT ***
+11:36:20.536 [main] INFO  testScenarios.EndToEnd -  Setting Sender details through Data Driven Approach 
+11:36:23.208 [main] INFO  testScenarios.EndToEnd -  All error message got captured 
+11:36:23.208 [main] INFO  testScenarios.EndToEnd - *** Ending of RecipientAndSenderDetailsDDT ***
+11:36:23.482 [main] INFO  testScenarios.EndToEnd -  Setting Sender details through Data Driven Approach 
+11:36:29.653 [main] INFO  testScenarios.EndToEnd -  All error message got captured 
+11:36:29.654 [main] INFO  testScenarios.EndToEnd - *** Ending of RecipientAndSenderDetailsDDT ***
+11:36:29.855 [main] INFO  testScenarios.EndToEnd -  Setting Sender details through Data Driven Approach 
+11:36:31.962 [main] INFO  testScenarios.EndToEnd -  All error message got captured 
+11:36:31.962 [main] INFO  testScenarios.EndToEnd - *** Ending of RecipientAndSenderDetailsDDT ***
+11:36:32.243 [main] INFO  testScenarios.EndToEnd -  Setting Sender details through Data Driven Approach 
+11:36:35.464 [main] INFO  testScenarios.EndToEnd -  All error message got captured 
+11:36:35.464 [main] INFO  testScenarios.EndToEnd - *** Ending of RecipientAndSenderDetailsDDT ***

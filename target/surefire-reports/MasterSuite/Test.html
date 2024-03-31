@@ -1,0 +1,215 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>27/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Mar 25 19:23:00 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>119 seconds (119832 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>Master </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.TS_03_SettingTheRequiredFilters.tc_012_checkOutOfStock()'><b>tc_012_checkOutOfStock</b><br>Test class: testCases.TS_03_SettingTheRequiredFilters</td>
+<td></td>
+<td>0</td>
+<td>testCases.TS_03_SettingTheRequiredFilters@24aed80c</td></tr>
+<tr>
+<td title='testCases.TS_04_DisplayBookShelvesDetails.tc_013_displayBookshelvesDetails()'><b>tc_013_displayBookshelvesDetails</b><br>Test class: testCases.TS_04_DisplayBookShelvesDetails</td>
+<td></td>
+<td>16</td>
+<td>testCases.TS_04_DisplayBookShelvesDetails@3a52dba3</td></tr>
+<tr>
+<td title='testCases.TS_07_ResipientAndSenderDetailsDDT.tc_021_enterSenderDetailsDDT()'><b>tc_021_enterSenderDetailsDDT</b><br>Test class: testCases.TS_07_ResipientAndSenderDetailsDDT<br>Parameters: Sender5, sender@gmail.com, 9876543, Bazargate, Mumbai</td>
+<td></td>
+<td>1</td>
+<td>testCases.TS_07_ResipientAndSenderDetailsDDT@b3ca52e</td></tr>
+<tr>
+<td title='testCases.TS_01_NavigateToBookshelvesPage.tc_002_verifyBookshelvesPage()'><b>tc_002_verifyBookshelvesPage</b><br>Test class: testCases.TS_01_NavigateToBookshelvesPage</td>
+<td></td>
+<td>2</td>
+<td>testCases.TS_01_NavigateToBookshelvesPage@2cd76f31</td></tr>
+<tr>
+<td title='testCases.TS_06_GiftCardCustomization.tc_017_navigateToGiftCardsPage()'><b>tc_017_navigateToGiftCardsPage</b><br>Test class: testCases.TS_06_GiftCardCustomization</td>
+<td></td>
+<td>3</td>
+<td>testCases.TS_06_GiftCardCustomization@279fedbd</td></tr>
+<tr>
+<td title='testCases.TS_07_ResipientAndSenderDetailsDDT.tc_021_enterSenderDetailsDDT()'><b>tc_021_enterSenderDetailsDDT</b><br>Test class: testCases.TS_07_ResipientAndSenderDetailsDDT<br>Parameters: Sender4, sender@gmail.com, , Bazargate, Mumbai</td>
+<td></td>
+<td>1</td>
+<td>testCases.TS_07_ResipientAndSenderDetailsDDT@b3ca52e</td></tr>
+<tr>
+<td title='testCases.TS_03_SettingTheRequiredFilters.tc_010_setPriceSlider()'><b>tc_010_setPriceSlider</b><br>Test class: testCases.TS_03_SettingTheRequiredFilters</td>
+<td></td>
+<td>0</td>
+<td>testCases.TS_03_SettingTheRequiredFilters@24aed80c</td></tr>
+<tr>
+<td title='testCases.TS_05_GetListOfSubMenuItems.tc_015_getHomeDecorSubMenuItems()'><b>tc_015_getHomeDecorSubMenuItems</b><br>Test class: testCases.TS_05_GetListOfSubMenuItems</td>
+<td></td>
+<td>0</td>
+<td>testCases.TS_05_GetListOfSubMenuItems@2a5c8d3f</td></tr>
+<tr>
+<td title='testCases.TS_02_VisibilityOfBookshelvesFilters.tc_006_isBrandFilterPresent()'><b>tc_006_isBrandFilterPresent</b><br>Test class: testCases.TS_02_VisibilityOfBookshelvesFilters</td>
+<td></td>
+<td>0</td>
+<td>testCases.TS_02_VisibilityOfBookshelvesFilters@2aceadd4</td></tr>
+<tr>
+<td title='testCases.TS_02_VisibilityOfBookshelvesFilters.tc_009_isStorageTypeFilterHoverable()'><b>tc_009_isStorageTypeFilterHoverable</b><br>Test class: testCases.TS_02_VisibilityOfBookshelvesFilters</td>
+<td></td>
+<td>0</td>
+<td>testCases.TS_02_VisibilityOfBookshelvesFilters@2aceadd4</td></tr>
+<tr>
+<td title='testCases.TS_05_GetListOfSubMenuItems.tc_014_isHomeDecorMenuPresent()'><b>tc_014_isHomeDecorMenuPresent</b><br>Test class: testCases.TS_05_GetListOfSubMenuItems</td>
+<td></td>
+<td>5</td>
+<td>testCases.TS_05_GetListOfSubMenuItems@2a5c8d3f</td></tr>
+<tr>
+<td title='testCases.TS_06_GiftCardCustomization.tc_016_validateGiftCardButton()'><b>tc_016_validateGiftCardButton</b><br>Test class: testCases.TS_06_GiftCardCustomization</td>
+<td></td>
+<td>0</td>
+<td>testCases.TS_06_GiftCardCustomization@279fedbd</td></tr>
+<tr>
+<td title='testCases.TS_07_ResipientAndSenderDetailsDDT.tc_021_enterSenderDetailsDDT()'><b>tc_021_enterSenderDetailsDDT</b><br>Test class: testCases.TS_07_ResipientAndSenderDetailsDDT<br>Parameters: Sender2, , 9876543212, Bazargate, Mumbai</td>
+<td></td>
+<td>1</td>
+<td>testCases.TS_07_ResipientAndSenderDetailsDDT@b3ca52e</td></tr>
+<tr>
+<td title='testCases.TS_07_ResipientAndSenderDetailsDDT.tc_021_enterSenderDetailsDDT()'><b>tc_021_enterSenderDetailsDDT</b><br>Test class: testCases.TS_07_ResipientAndSenderDetailsDDT<br>Parameters: Sender6, sender@gmail.com, 9876543212, </td>
+<td></td>
+<td>1</td>
+<td>testCases.TS_07_ResipientAndSenderDetailsDDT@b3ca52e</td></tr>
+<tr>
+<td title='testCases.TS_07_ResipientAndSenderDetailsDDT.tc_020_enterRecipientDetailsDDT()'><b>tc_020_enterRecipientDetailsDDT</b><br>Test class: testCases.TS_07_ResipientAndSenderDetailsDDT<br>Parameters: Recipient 1, recipient1@gmail.com, 9876543212</td>
+<td></td>
+<td>0</td>
+<td>testCases.TS_07_ResipientAndSenderDetailsDDT@b3ca52e</td></tr>
+<tr>
+<td title='testCases.TS_02_VisibilityOfBookshelvesFilters.tc_003_handlePopup()'><b>tc_003_handlePopup</b><br>Test class: testCases.TS_02_VisibilityOfBookshelvesFilters</td>
+<td></td>
+<td>5</td>
+<td>testCases.TS_02_VisibilityOfBookshelvesFilters@2aceadd4</td></tr>
+<tr>
+<td title='testCases.TS_06_GiftCardCustomization.tc_019_giftCardCustomization()'><b>tc_019_giftCardCustomization</b><br>Test class: testCases.TS_06_GiftCardCustomization</td>
+<td></td>
+<td>1</td>
+<td>testCases.TS_06_GiftCardCustomization@279fedbd</td></tr>
+<tr>
+<td title='testCases.TS_02_VisibilityOfBookshelvesFilters.tc_004_isPriceFilterPresent()'><b>tc_004_isPriceFilterPresent</b><br>Test class: testCases.TS_02_VisibilityOfBookshelvesFilters</td>
+<td></td>
+<td>0</td>
+<td>testCases.TS_02_VisibilityOfBookshelvesFilters@2aceadd4</td></tr>
+<tr>
+<td title='testCases.TS_02_VisibilityOfBookshelvesFilters.tc_008_isPriceFilterHoverable()'><b>tc_008_isPriceFilterHoverable</b><br>Test class: testCases.TS_02_VisibilityOfBookshelvesFilters</td>
+<td></td>
+<td>0</td>
+<td>testCases.TS_02_VisibilityOfBookshelvesFilters@2aceadd4</td></tr>
+<tr>
+<td title='testCases.TS_02_VisibilityOfBookshelvesFilters.tc_007_isOutOfStockCheckboxPresent()'><b>tc_007_isOutOfStockCheckboxPresent</b><br>Test class: testCases.TS_02_VisibilityOfBookshelvesFilters</td>
+<td></td>
+<td>0</td>
+<td>testCases.TS_02_VisibilityOfBookshelvesFilters@2aceadd4</td></tr>
+<tr>
+<td title='testCases.TS_01_NavigateToBookshelvesPage.tc_001_isBookShelvesButtonPresent()'><b>tc_001_isBookShelvesButtonPresent</b><br>Test class: testCases.TS_01_NavigateToBookshelvesPage</td>
+<td></td>
+<td>1</td>
+<td>testCases.TS_01_NavigateToBookshelvesPage@2cd76f31</td></tr>
+<tr>
+<td title='testCases.TS_02_VisibilityOfBookshelvesFilters.tc_005_isStorageTypeFilterPresent()'><b>tc_005_isStorageTypeFilterPresent</b><br>Test class: testCases.TS_02_VisibilityOfBookshelvesFilters</td>
+<td></td>
+<td>0</td>
+<td>testCases.TS_02_VisibilityOfBookshelvesFilters@2aceadd4</td></tr>
+<tr>
+<td title='testCases.TS_07_ResipientAndSenderDetailsDDT.tc_021_enterSenderDetailsDDT()'><b>tc_021_enterSenderDetailsDDT</b><br>Test class: testCases.TS_07_ResipientAndSenderDetailsDDT<br>Parameters: Sender3, sender, 9876543212, Bazargate, Mumbai</td>
+<td></td>
+<td>1</td>
+<td>testCases.TS_07_ResipientAndSenderDetailsDDT@b3ca52e</td></tr>
+<tr>
+<td title='testCases.TS_03_SettingTheRequiredFilters.tc_011_setStorageType()'><b>tc_011_setStorageType</b><br>Test class: testCases.TS_03_SettingTheRequiredFilters</td>
+<td></td>
+<td>0</td>
+<td>testCases.TS_03_SettingTheRequiredFilters@24aed80c</td></tr>
+<tr>
+<td title='testCases.TS_07_ResipientAndSenderDetailsDDT.tc_021_enterSenderDetailsDDT()'><b>tc_021_enterSenderDetailsDDT</b><br>Test class: testCases.TS_07_ResipientAndSenderDetailsDDT<br>Parameters: , sender@gmail.com, 9876543212, Bazargate, Mumbai</td>
+<td></td>
+<td>2</td>
+<td>testCases.TS_07_ResipientAndSenderDetailsDDT@b3ca52e</td></tr>
+<tr>
+<td title='testCases.TS_06_GiftCardCustomization.tc_018_verifyBirthdayCardIsDisplayed()'><b>tc_018_verifyBirthdayCardIsDisplayed</b><br>Test class: testCases.TS_06_GiftCardCustomization</td>
+<td></td>
+<td>0</td>
+<td>testCases.TS_06_GiftCardCustomization@279fedbd</td></tr>
+<tr>
+<td title='testCases.TS_07_ResipientAndSenderDetailsDDT.tc_021_enterSenderDetailsDDT()'><b>tc_021_enterSenderDetailsDDT</b><br>Test class: testCases.TS_07_ResipientAndSenderDetailsDDT<br>Parameters: , , , </td>
+<td></td>
+<td>1</td>
+<td>testCases.TS_07_ResipientAndSenderDetailsDDT@b3ca52e</td></tr>
+</table><p>
+</body>
+</html>
